@@ -63,11 +63,21 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-    margin-top: 2%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
+
+.logo {
+   padding-right: 45%;
+   padding-bottom: 3%;
+   padding-top: 3%;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+  }
 p {
     line-height: 1.4;
 }
