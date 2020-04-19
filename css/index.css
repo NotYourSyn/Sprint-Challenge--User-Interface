@@ -77,6 +77,7 @@ header {
 nav a {
     text-decoration: none;
     color: black;
+    padding: .125rem;
   }
 p {
     line-height: 1.4;
@@ -97,7 +98,7 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 1%;
     padding-bottom: 20px;  
 }
 
@@ -107,7 +108,7 @@ p {
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    padding: 2%;
     margin-bottom: 0;
 }
 
@@ -322,7 +323,7 @@ footer {
 .introDiv p {
     padding-bottom: 1rem;
 }
-hr {
+.productHr {
     width: 98%;
     border-top: 1px solid black;
 }
