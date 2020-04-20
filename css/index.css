@@ -70,13 +70,14 @@ header {
 }
 
 .logo {
-   padding-right: 45%;
+   padding-right: 40%;
    padding-bottom: 3%;
    padding-top: 3%;
 }
 nav a {
     text-decoration: none;
     color: black;
+    padding: .175rem;
   }
 p {
     line-height: 1.4;
@@ -97,7 +98,7 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 1%;
     padding-bottom: 20px;  
 }
 
@@ -107,7 +108,7 @@ p {
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    padding: 2%;
     margin-bottom: 0;
 }
 
@@ -277,7 +278,7 @@ footer nav a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin 0 auto; 
+    margin: 0 auto; 
     padding-top: 2%;
     padding-bottom: 2%;
     margin-bottom: 2%;
@@ -309,4 +310,82 @@ footer {
     margin-top: 3%;
     margin-bottom: 3%;
 }
-
+.introDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.introDiv h2 {
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.introDiv p {
+    padding-bottom: 1rem;
+}
+.productHr {
+    width: 98%;
+    border-top: 1px solid black;
+}
+.mainProduct {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+.mainProduct div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    padding: 20px;
+}
+.mainProduct h3 {
+    font-size: 2.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mainProduct p {
+    font-size: 1rem;
+    padding: 10px;
+}
+.currentblog {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.currentblog h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+.currentblog p {
+    padding-bottom: 3rem;
+}
+.future {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.future h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+.contactForm{
+    padding-top: 2rem;
+}
+.phnnumber {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+}
+.phnnumber h2 {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+}
+.phnnumber h3 {
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+}
+.phnnumber p {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
