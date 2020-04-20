@@ -70,14 +70,14 @@ header {
 }
 
 .logo {
-   padding-right: 45%;
+   padding-right: 40%;
    padding-bottom: 3%;
    padding-top: 3%;
 }
 nav a {
     text-decoration: none;
     color: black;
-    padding: .125rem;
+    padding: .175rem;
   }
 p {
     line-height: 1.4;
@@ -316,7 +316,7 @@ footer {
     align-items: center;
 }
 .introDiv h2 {
-    font-size: 5rem;
+    font-size: 3rem;
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
@@ -327,24 +327,47 @@ footer {
     width: 98%;
     border-top: 1px solid black;
 }
-.mainProject {
+.mainProduct {
     display: flex;
     flex-wrap: wrap;
     padding-top: 1rem;
 }
-.mainProject div {
+.mainProduct div {
     display: flex;
     flex-direction: column;
     align-items: center;
  
     padding: 20px;
 }
-.mainProject h3 {
+.mainProduct h3 {
     font-size: 2.5rem;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.mainProject p {
+.mainProduct p {
     font-size: 1rem;
     padding: 10px;
+}
+.currentblog {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.currentblog h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+.currentblog p {
+    padding-bottom: 3rem;
+}
+.future {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.future h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+.contactForm{
+    padding-top: 2rem;
 }
